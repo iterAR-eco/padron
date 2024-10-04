@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # URL del archivo Excel en GitHub (asegúrate de tener el enlace correcto)
-url = "https://github.com/iterAR-eco/padron/raw/refs/heads/main/Padron1.xlsx"
+url = "https://github.com/iterAR-eco/padron/raw/refs/heads/main/Padron.xlsx"
 
 @st.cache
 def cargar_datos(url):
