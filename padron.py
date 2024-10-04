@@ -30,7 +30,7 @@ if dni_input:
         # Si se encuentra el DNI, mostrar la fila
         if not fila.empty:
             st.write("Resultado para el DNI:", dni_input)
-            st.write(fila)
+            st.write(fila.to_html(index=False), unsafe_allow_html=True)
         else:
             st.write("No se encontró ningún resultado para el DNI ingresado.")
     except ValueError:
