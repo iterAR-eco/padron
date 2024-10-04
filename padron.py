@@ -14,6 +14,7 @@ def cargar_datos(url):
 df = cargar_datos(url)
 
 # Título de la aplicación
+st.title("LISTA 15 - PABLO NICOLETTI")
 st.title("Búsqueda por DNI")
 
 # Input para ingresar el DNI
